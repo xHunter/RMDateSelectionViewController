@@ -26,6 +26,8 @@
 		CACBDBD11B371D9500301977 /* RMDateSelectionViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CACBDBD01B371D9500301977 /* RMDateSelectionViewControllerTests.m */; };
 		CACF16BD1AC42CE4005CDB0F /* RMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA60A52181C1A0200198490 /* RMViewController.m */; };
 		CACF16BE1AC42CE6005CDB0F /* RMDateSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA60A73181C1A8700198490 /* RMDateSelectionViewController.m */; };
+		CAEB99E51B3721F100452365 /* RMDateSelectionViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAEB99E41B3721F100452365 /* RMDateSelectionViewControllerUITests.m */; };
+		E52BDECEA2C24695F8B2968C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E92A93417C5DD247546CF8 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +80,13 @@
 			remoteGlobalIDString = CAA60A38181C1A0200198490;
 			remoteInfo = "RMDateSelectionViewController-Demo";
 		};
+		CAEB99E71B3721F100452365 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAA60A31181C1A0200198490 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAA60A38181C1A0200198490;
+			remoteInfo = "RMDateSelectionViewController-Demo";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -121,6 +130,9 @@
 		CACBDBCC1B371D9500301977 /* RMDateSelectionViewController-Demo-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RMDateSelectionViewController-Demo-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CACBDBCF1B371D9500301977 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CACBDBD01B371D9500301977 /* RMDateSelectionViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMDateSelectionViewControllerTests.m; sourceTree = "<group>"; };
+		CAEB99E21B3721F100452365 /* RMDateSelectionViewController-Demo-UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RMDateSelectionViewController-Demo-UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAEB99E41B3721F100452365 /* RMDateSelectionViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMDateSelectionViewControllerUITests.m; sourceTree = "<group>"; };
+		CAEB99E61B3721F100452365 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1E92A93417C5DD247546CF8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F345C15526094F92A3D0BCB2 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -151,6 +163,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				19B79EF3FB860B177CB868C4 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAEB99DF1B3721F100452365 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E52BDECEA2C24695F8B2968C /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +222,7 @@
 				CAA60A42181C1A0200198490 /* RMDateSelectionViewController-Demo */,
 				CA52EE291AC42C760032E877 /* RMDateSelectionViewController-DemoExtension */,
 				CACBDBCD1B371D9500301977 /* RMDateSelectionViewController-Demo-Tests */,
+				CAEB99E31B3721F100452365 /* RMDateSelectionViewController-Demo-UITests */,
 				CAA60A3A181C1A0200198490 /* Products */,
 				98BA88FA69CF4B444746513C /* Pods */,
 				D2DE4A56023165B179249E9C /* Frameworks */,
@@ -214,6 +235,7 @@
 				CAA60A39181C1A0200198490 /* RMDateSelectionViewController-Demo.app */,
 				CA52EE281AC42C760032E877 /* RMDateSelectionViewController-DemoExtension.appex */,
 				CACBDBCC1B371D9500301977 /* RMDateSelectionViewController-Demo-Tests.xctest */,
+				CAEB99E21B3721F100452365 /* RMDateSelectionViewController-Demo-UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -268,6 +290,15 @@
 				CACBDBCF1B371D9500301977 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CAEB99E31B3721F100452365 /* RMDateSelectionViewController-Demo-UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAEB99E41B3721F100452365 /* RMDateSelectionViewControllerUITests.m */,
+				CAEB99E61B3721F100452365 /* Info.plist */,
+			);
+			path = "RMDateSelectionViewController-Demo-UITests";
 			sourceTree = "<group>";
 		};
 		D2DE4A56023165B179249E9C /* Frameworks */ = {
@@ -341,6 +372,26 @@
 			productReference = CACBDBCC1B371D9500301977 /* RMDateSelectionViewController-Demo-Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		CAEB99E11B3721F100452365 /* RMDateSelectionViewController-Demo-UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAEB99EB1B3721F100452365 /* Build configuration list for PBXNativeTarget "RMDateSelectionViewController-Demo-UITests" */;
+			buildPhases = (
+				A335DC75A0934BE9AA27B474 /* Check Pods Manifest.lock */,
+				CAEB99DE1B3721F100452365 /* Sources */,
+				CAEB99DF1B3721F100452365 /* Frameworks */,
+				CAEB99E01B3721F100452365 /* Resources */,
+				F4D31B5BACC05F633B675B52 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAEB99E81B3721F100452365 /* PBXTargetDependency */,
+			);
+			name = "RMDateSelectionViewController-Demo-UITests";
+			productName = "RMDateSelectionViewController-Demo-UITests";
+			productReference = CAEB99E21B3721F100452365 /* RMDateSelectionViewController-Demo-UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -356,6 +407,10 @@
 					};
 					CACBDBCB1B371D9500301977 = {
 						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = CAA60A38181C1A0200198490;
+					};
+					CAEB99E11B3721F100452365 = {
+						CreatedOnToolsVersion = 7.0;
 						TestTargetID = CAA60A38181C1A0200198490;
 					};
 				};
@@ -382,6 +437,7 @@
 				CAA60A38181C1A0200198490 /* RMDateSelectionViewController-Demo */,
 				CA52EE271AC42C760032E877 /* RMDateSelectionViewController-DemoExtension */,
 				CACBDBCB1B371D9500301977 /* RMDateSelectionViewController-Demo-Tests */,
+				CAEB99E11B3721F100452365 /* RMDateSelectionViewController-Demo-UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -450,6 +506,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CAEB99E01B3721F100452365 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -481,6 +544,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A335DC75A0934BE9AA27B474 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		AAABD6BE24251E018C0E5838 /* Check Pods Manifest.lock */ = {
@@ -526,6 +604,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F4D31B5BACC05F633B675B52 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD761A954DE5ACC5F39B14A9 /* Check Pods Manifest.lock */ = {
@@ -574,6 +667,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CAEB99DE1B3721F100452365 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAEB99E51B3721F100452365 /* RMDateSelectionViewControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -586,6 +687,11 @@
 			isa = PBXTargetDependency;
 			target = CAA60A38181C1A0200198490 /* RMDateSelectionViewController-Demo */;
 			targetProxy = CACBDBD21B371D9500301977 /* PBXContainerItemProxy */;
+		};
+		CAEB99E81B3721F100452365 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAA60A38181C1A0200198490 /* RMDateSelectionViewController-Demo */;
+			targetProxy = CAEB99E71B3721F100452365 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -776,6 +882,48 @@
 			};
 			name = Release;
 		};
+		CAEB99E91B3721F100452365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28E09D5F123858E7174DCBB9 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "RMDateSelectionViewController-Demo-UITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.cooperrs.RMDateSelectionViewController-Demo-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "RMDateSelectionViewController-Demo";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CAEB99EA1B3721F100452365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F345C15526094F92A3D0BCB2 /* Pods.release.xcconfig */;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "RMDateSelectionViewController-Demo-UITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.cooperrs.RMDateSelectionViewController-Demo-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "RMDateSelectionViewController-Demo";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -811,6 +959,15 @@
 			buildConfigurations = (
 				CACBDBD41B371D9500301977 /* Debug */,
 				CACBDBD51B371D9500301977 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAEB99EB1B3721F100452365 /* Build configuration list for PBXNativeTarget "RMDateSelectionViewController-Demo-UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAEB99E91B3721F100452365 /* Debug */,
+				CAEB99EA1B3721F100452365 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

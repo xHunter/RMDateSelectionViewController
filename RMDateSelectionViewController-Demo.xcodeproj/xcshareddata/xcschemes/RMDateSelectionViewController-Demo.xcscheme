@@ -53,6 +53,16 @@
                ReferencedContainer = "container:RMDateSelectionViewController-Demo.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CAEB99E11B3721F100452365"
+               BuildableName = "RMDateSelectionViewController-Demo-UITests.xctest"
+               BlueprintName = "RMDateSelectionViewController-Demo-UITests"
+               ReferencedContainer = "container:RMDateSelectionViewController-Demo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

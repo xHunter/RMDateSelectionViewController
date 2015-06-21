@@ -67,6 +67,16 @@
                ReferencedContainer = "container:RMDateSelectionViewController-Demo.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CAEB99E11B3721F100452365"
+               BuildableName = "RMDateSelectionViewController-Demo-UITests.xctest"
+               BlueprintName = "RMDateSelectionViewController-Demo-UITests"
+               ReferencedContainer = "container:RMDateSelectionViewController-Demo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
@@ -77,6 +87,8 @@
             ReferencedContainer = "container:RMDateSelectionViewController-Demo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = ""
@@ -86,6 +98,7 @@
       buildConfiguration = "Debug"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
       allowLocationSimulation = "YES"
       launchAutomaticallySubstyle = "2">
       <BuildableProductRunnable
